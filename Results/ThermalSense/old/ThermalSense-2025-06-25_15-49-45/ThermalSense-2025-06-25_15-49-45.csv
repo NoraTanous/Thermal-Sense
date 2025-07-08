@@ -1,0 +1,4 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,cleaned_image,thermal_image,hot_item_count,cold_item_count,total_item_count
+0,33.32330788452358,warm,frame_000.png,frame_000.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/cleaned/frame_000.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/thermal/frame_000.png,50,0,50
+1,33.42775032177667,warm,frame_001.png,frame_001.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/cleaned/frame_001.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/thermal/frame_001.png,50,0,50
+2,33.42947870983492,warm,frame_002.png,frame_002.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/cleaned/frame_002.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-25_15-49-45/thermal/frame_002.png,50,0,50

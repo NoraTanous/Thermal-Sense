@@ -1,0 +1,9 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,detected_items_counter,cold_items_counter,hot_items_counter,frame_result
+0,23.428870517811536,neutral,frame_000.png,frame_000.wav,0,0,0,"cold:
+
+hot:
+"
+1,22.516547185553534,neutral,frame_001.png,frame_001.wav,0,0,0,"cold:
+
+hot:
+"

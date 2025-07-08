@@ -1,0 +1,15 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename
+0,29.24330672236006,neutral,frame_000.png,frame_000.wav
+1,27.478720894907223,neutral,frame_001.png,frame_001.wav
+2,29.451319028031616,neutral,frame_002.png,frame_002.wav
+3,30.05475821841395,warm,frame_003.png,frame_003.wav
+4,41.006873801453075,hot,frame_004.png,frame_004.wav
+5,57.239359164464,hot,frame_005.png,frame_005.wav
+6,41.50950034253078,hot,frame_006.png,frame_006.wav
+7,51.24610472955408,hot,frame_007.png,frame_007.wav
+8,58.66659955033894,hot,frame_008.png,frame_008.wav
+9,30.999005571293818,warm,frame_009.png,frame_009.wav
+10,34.09487795353537,warm,frame_010.png,frame_010.wav
+11,35.14157024635381,warm,frame_011.png,frame_011.wav
+12,37.26654277443027,warm,frame_012.png,frame_012.wav
+13,29.74467377635682,neutral,frame_013.png,frame_013.wav

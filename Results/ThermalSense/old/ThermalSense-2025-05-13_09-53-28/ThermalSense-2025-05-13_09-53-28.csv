@@ -1,0 +1,67 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,cleaned_image,thermal_image,detected_items_counter,cold_items_counter,hot_items_counter,frame_result
+0,27.19063979602358,neutral,frame_000.png,frame_000.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_000.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_000.png,0,0,0,"cold:
+
+hot:
+"
+1,27.821162242339824,neutral,frame_001.png,frame_001.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_001.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_001.png,3,2,1,"cold:
+item1:(0, 15)
+item2:(29, 49)
+hot:
+item1:(16, 28)"
+2,27.5023046639175,neutral,frame_002.png,frame_002.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_002.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_002.png,3,2,1,"cold:
+item1:(0, 17)
+item2:(31, 49)
+hot:
+item1:(18, 30)"
+3,27.7439742109111,neutral,frame_003.png,frame_003.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_003.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_003.png,3,2,1,"cold:
+item1:(0, 17)
+item2:(32, 49)
+hot:
+item1:(18, 31)"
+4,26.4833773600067,neutral,frame_004.png,frame_004.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_004.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_004.png,3,2,1,"cold:
+item1:(0, 15)
+item2:(28, 49)
+hot:
+item1:(16, 27)"
+5,26.193172005169743,neutral,frame_005.png,frame_005.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_005.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_005.png,3,2,1,"cold:
+item1:(0, 11)
+item2:(20, 49)
+hot:
+item1:(12, 19)"
+6,27.509332177865776,neutral,frame_006.png,frame_006.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_006.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_006.png,3,2,1,"cold:
+item1:(0, 15)
+item2:(31, 47)
+hot:
+item1:(16, 30)"
+7,27.34897819279764,neutral,frame_007.png,frame_007.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_007.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_007.png,4,3,1,"cold:
+item1:(0, 15)
+item2:(34, 47)
+item3:(49, 49)
+hot:
+item1:(16, 33)"
+8,27.098959668966085,neutral,frame_008.png,frame_008.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_008.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_008.png,3,2,1,"cold:
+item1:(0, 24)
+item2:(35, 46)
+hot:
+item1:(25, 34)"
+9,27.107118429105117,neutral,frame_009.png,frame_009.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_009.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_009.png,3,2,1,"cold:
+item1:(0, 24)
+item2:(35, 49)
+hot:
+item1:(25, 34)"
+10,27.193548225293465,neutral,frame_010.png,frame_010.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_010.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_010.png,4,3,1,"cold:
+item1:(0, 24)
+item2:(35, 47)
+item3:(49, 49)
+hot:
+item1:(25, 34)"
+11,27.180384720961214,neutral,frame_011.png,frame_011.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_011.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_011.png,3,2,1,"cold:
+item1:(0, 24)
+item2:(35, 46)
+hot:
+item1:(25, 34)"
+12,25.987544207681548,neutral,frame_012.png,frame_012.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/cleaned/frame_012.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_09-53-28/thermal/frame_012.png,3,2,1,"cold:
+item1:(0, 15)
+item2:(23, 49)
+hot:
+item1:(16, 22)"

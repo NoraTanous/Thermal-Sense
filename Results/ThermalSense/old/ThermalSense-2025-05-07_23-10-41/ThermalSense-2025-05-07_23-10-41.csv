@@ -1,0 +1,5 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename
+0,23.350911178818112,neutral,frame_000.png,frame_000.wav
+1,23.655684945248414,neutral,frame_001.png,frame_001.wav
+2,23.597822346363213,neutral,frame_002.png,frame_002.wav
+3,27.22401670546287,neutral,frame_003.png,frame_003.wav

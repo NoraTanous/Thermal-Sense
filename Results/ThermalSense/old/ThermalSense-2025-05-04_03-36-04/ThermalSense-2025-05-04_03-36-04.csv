@@ -1,0 +1,13 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,cleaned_image,thermal_image,detected_items_counter,cold_items_counter,hot_items_counter,frame_result
+0,27.24904939420691,neutral,frame_000.png,frame_000.wav,cleaned/frame_000.png,thermal/frame_000.png,3,2,1,"cold:
+item1:5?8\nitem2:22?49
+hot:
+item1:12?14"
+1,17.689937273543794,cold,frame_001.png,frame_001.wav,cleaned/frame_001.png,thermal/frame_001.png,1,1,0,"cold:
+item1:0?49
+hot:
+"
+2,14.23654549359815,cold,frame_002.png,frame_002.wav,cleaned/frame_002.png,thermal/frame_002.png,1,1,0,"cold:
+item1:0?49
+hot:
+"

@@ -1,0 +1,11 @@
+object_count,temperature,heat_range,detected_object
+1,24.396072195895176,neutral,frame_001.png
+2,24.160271184338978,neutral,frame_002.png
+3,40.71783561492336,hot,frame_003.png
+4,50.72874341498315,hot,frame_004.png
+5,47.22406409373866,hot,frame_005.png
+6,9.253100248566533,very cold,frame_006.png
+7,18.387017728387278,cold,frame_007.png
+8,5.599135449125236,very cold,frame_008.png
+9,-10.80336926518863,very cold,frame_009.png
+10,-1.557609691974229,very cold,frame_010.png

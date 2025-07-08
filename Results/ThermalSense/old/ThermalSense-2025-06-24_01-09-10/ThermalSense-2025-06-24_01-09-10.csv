@@ -1,0 +1,2 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,cleaned_image,thermal_image,hot_item_count,cold_item_count,total_item_count
+0,34.96620214979418,warm,frame_000.png,frame_000.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-24_01-09-10/cleaned/frame_000.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-06-24_01-09-10/thermal/frame_000.png,50,0,50

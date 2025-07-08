@@ -1,0 +1,29 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename
+0,26.66304628620574,neutral,frame_000.png,frame_000.wav
+1,27.16877339646449,neutral,frame_001.png,frame_001.wav
+2,25.817287571431606,neutral,frame_002.png,frame_002.wav
+3,25.431279818376982,neutral,frame_003.png,frame_003.wav
+4,35.14632160186459,warm,frame_004.png,frame_004.wav
+5,19.456437823578018,cold,frame_005.png,frame_005.wav
+6,0.30328544566575927,very cold,frame_006.png,frame_006.wav
+7,0.42246179014703733,very cold,frame_007.png,frame_007.wav
+8,21.54053218371548,neutral,frame_008.png,frame_008.wav
+9,23.93148071681256,neutral,frame_009.png,frame_009.wav
+10,26.15823614167191,neutral,frame_010.png,frame_010.wav
+11,26.994457296736773,neutral,frame_011.png,frame_011.wav
+12,27.388667035580923,neutral,frame_012.png,frame_012.wav
+13,27.38612088922173,neutral,frame_013.png,frame_013.wav
+14,27.39919882704913,neutral,frame_014.png,frame_014.wav
+15,27.29878307312825,neutral,frame_015.png,frame_015.wav
+16,27.234110456285666,neutral,frame_016.png,frame_016.wav
+17,27.151771791227556,neutral,frame_017.png,frame_017.wav
+18,27.04458474444192,neutral,frame_018.png,frame_018.wav
+19,27.055513013965168,neutral,frame_019.png,frame_019.wav
+20,26.968550758680035,neutral,frame_020.png,frame_020.wav
+21,26.89482392904902,neutral,frame_021.png,frame_021.wav
+22,26.952934131064197,neutral,frame_022.png,frame_022.wav
+23,26.778429859718,neutral,frame_023.png,frame_023.wav
+24,26.754366497509,neutral,frame_024.png,frame_024.wav
+25,26.7143216572734,neutral,frame_025.png,frame_025.wav
+26,26.74625757402723,neutral,frame_026.png,frame_026.wav
+27,26.78132702010997,neutral,frame_027.png,frame_027.wav

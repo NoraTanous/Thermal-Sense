@@ -1,0 +1,3 @@
+object_count,temperature,heat_range,detected_object
+1,31.34835746818526,warm,frame_001.png
+2,31.449778113811618,warm,frame_002.png

@@ -1,0 +1,11 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename
+0,26.40571501101708,neutral,frame_000.png,frame_000.wav
+1,26.031623101125195,neutral,frame_001.png,frame_001.wav
+2,25.70645346620452,neutral,frame_002.png,frame_002.wav
+3,-1.2781605348544063,very cold,frame_003.png,frame_003.wav
+4,-4.976773728104838,very cold,frame_004.png,frame_004.wav
+5,-8.572601137949205,very cold,frame_005.png,frame_005.wav
+6,-9.673399204530357,very cold,frame_006.png,frame_006.wav
+7,16.299300378047217,cold,frame_007.png,frame_007.wav
+8,44.50720431681379,hot,frame_008.png,frame_008.wav
+9,26.543997410397637,neutral,frame_009.png,frame_009.wav

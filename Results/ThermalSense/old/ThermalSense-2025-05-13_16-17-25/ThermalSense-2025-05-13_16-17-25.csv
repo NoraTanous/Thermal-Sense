@@ -1,0 +1,188 @@
+frame_number,mean_temperature,heat_range,image_filename,wav_filename,cleaned_image,thermal_image,detected_items_counter,cold_items_counter,hot_items_counter,frame_result
+0,27.07630547168095,neutral,frame_000.png,frame_000.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_000.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_000.png,5,4,1,"cold:
+item1:(11, 11)
+item2:(13, 20)
+item3:(29, 36)
+item4:(39, 39)
+hot:
+item1:(21, 28)"
+1,27.522296351730848,neutral,frame_001.png,frame_001.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_001.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_001.png,2,1,1,"cold:
+item1:(6, 24)
+hot:
+item1:(25, 34)"
+2,27.495974623702285,neutral,frame_002.png,frame_002.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_002.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_002.png,2,1,1,"cold:
+item1:(5, 23)
+hot:
+item1:(24, 34)"
+3,27.616716485312477,neutral,frame_003.png,frame_003.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_003.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_003.png,2,1,1,"cold:
+item1:(6, 23)
+hot:
+item1:(24, 34)"
+4,27.508778761395963,neutral,frame_004.png,frame_004.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_004.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_004.png,2,1,1,"cold:
+item1:(6, 22)
+hot:
+item1:(23, 33)"
+5,27.49898678554872,neutral,frame_005.png,frame_005.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_005.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_005.png,2,1,1,"cold:
+item1:(6, 22)
+hot:
+item1:(23, 33)"
+6,27.53316626694267,neutral,frame_006.png,frame_006.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_006.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_006.png,2,1,1,"cold:
+item1:(6, 22)
+hot:
+item1:(23, 33)"
+7,27.51685443006188,neutral,frame_007.png,frame_007.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_007.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_007.png,2,1,1,"cold:
+item1:(6, 22)
+hot:
+item1:(23, 34)"
+8,27.54029210593988,neutral,frame_008.png,frame_008.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_008.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_008.png,2,1,1,"cold:
+item1:(6, 22)
+hot:
+item1:(23, 34)"
+9,27.40827403751142,neutral,frame_009.png,frame_009.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_009.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_009.png,2,1,1,"cold:
+item1:(6, 21)
+hot:
+item1:(22, 33)"
+10,27.379256334654517,neutral,frame_010.png,frame_010.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_010.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_010.png,2,1,1,"cold:
+item1:(6, 21)
+hot:
+item1:(22, 33)"
+11,27.155876042769155,neutral,frame_011.png,frame_011.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_011.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_011.png,3,2,1,"cold:
+item1:(3, 15)
+item2:(25, 43)
+hot:
+item1:(16, 24)"
+12,26.676837102444164,neutral,frame_012.png,frame_012.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_012.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_012.png,4,4,0,"cold:
+item1:(0, 0)
+item2:(2, 5)
+item3:(16, 16)
+item4:(21, 33)
+hot:
+"
+13,26.914024377304028,neutral,frame_013.png,frame_013.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_013.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_013.png,0,0,0,"cold:
+
+hot:
+"
+14,27.011096753343153,neutral,frame_014.png,frame_014.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_014.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_014.png,0,0,0,"cold:
+
+hot:
+"
+15,27.08491723575787,neutral,frame_015.png,frame_015.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_015.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_015.png,0,0,0,"cold:
+
+hot:
+"
+16,31.58487428094322,warm,frame_016.png,frame_016.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_016.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_016.png,2,1,1,"cold:
+item1:(40, 48)
+hot:
+item1:(14, 25)"
+17,30.00833425483387,warm,frame_017.png,frame_017.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_017.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_017.png,2,1,1,"cold:
+item1:(41, 49)
+hot:
+item1:(15, 24)"
+18,29.461049358931632,neutral,frame_018.png,frame_018.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_018.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_018.png,4,3,1,"cold:
+item1:(30, 31)
+item2:(34, 35)
+item3:(41, 49)
+hot:
+item1:(15, 24)"
+19,26.42923964815434,neutral,frame_019.png,frame_019.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_019.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_019.png,1,1,0,"cold:
+item1:(7, 38)
+hot:
+"
+20,26.743690614195035,neutral,frame_020.png,frame_020.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_020.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_020.png,0,0,0,"cold:
+
+hot:
+"
+21,26.888187929139786,neutral,frame_021.png,frame_021.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_021.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_021.png,0,0,0,"cold:
+
+hot:
+"
+22,26.86031322151909,neutral,frame_022.png,frame_022.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_022.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_022.png,0,0,0,"cold:
+
+hot:
+"
+23,26.77719173878891,neutral,frame_023.png,frame_023.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_023.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_023.png,0,0,0,"cold:
+
+hot:
+"
+24,26.773977009421817,neutral,frame_024.png,frame_024.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_024.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_024.png,1,1,0,"cold:
+item1:(19, 19)
+hot:
+"
+25,26.762515237786015,neutral,frame_025.png,frame_025.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_025.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_025.png,0,0,0,"cold:
+
+hot:
+"
+26,28.395357204999055,neutral,frame_026.png,frame_026.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_026.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_026.png,1,0,1,"cold:
+
+hot:
+item1:(49, 49)"
+27,28.087602252124313,neutral,frame_027.png,frame_027.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_027.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_027.png,0,0,0,"cold:
+
+hot:
+"
+28,27.26934865682512,neutral,frame_028.png,frame_028.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_028.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_028.png,4,2,2,"cold:
+item1:(9, 27)
+item2:(38, 38)
+hot:
+item1:(8, 8)
+item2:(28, 37)"
+29,27.22237823113125,neutral,frame_029.png,frame_029.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_029.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_029.png,2,1,1,"cold:
+item1:(6, 25)
+hot:
+item1:(26, 35)"
+30,27.209664609763553,neutral,frame_030.png,frame_030.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_030.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_030.png,2,1,1,"cold:
+item1:(6, 25)
+hot:
+item1:(26, 36)"
+31,27.13307503450672,neutral,frame_031.png,frame_031.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_031.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_031.png,2,1,1,"cold:
+item1:(6, 25)
+hot:
+item1:(26, 35)"
+32,27.263484086260814,neutral,frame_032.png,frame_032.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_032.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_032.png,2,1,1,"cold:
+item1:(4, 24)
+hot:
+item1:(25, 34)"
+33,26.998671230199296,neutral,frame_033.png,frame_033.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_033.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_033.png,5,4,1,"cold:
+item1:(0, 24)
+item2:(35, 40)
+item3:(42, 43)
+item4:(45, 46)
+hot:
+item1:(25, 34)"
+34,26.50245502114976,neutral,frame_034.png,frame_034.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_034.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_034.png,1,1,0,"cold:
+item1:(0, 46)
+hot:
+"
+35,26.764689631989274,neutral,frame_035.png,frame_035.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_035.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_035.png,2,2,0,"cold:
+item1:(19, 19)
+item2:(21, 22)
+hot:
+"
+36,26.94554550351582,neutral,frame_036.png,frame_036.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_036.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_036.png,0,0,0,"cold:
+
+hot:
+"
+37,27.054908146324383,neutral,frame_037.png,frame_037.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_037.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_037.png,0,0,0,"cold:
+
+hot:
+"
+38,31.007673484705645,warm,frame_038.png,frame_038.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_038.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_038.png,1,0,1,"cold:
+
+hot:
+item1:(9, 22)"
+39,31.08806561326381,warm,frame_039.png,frame_039.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_039.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_039.png,1,0,1,"cold:
+
+hot:
+item1:(12, 25)"
+40,26.67171938281271,neutral,frame_040.png,frame_040.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_040.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_040.png,0,0,0,"cold:
+
+hot:
+"
+41,26.647450977800165,neutral,frame_041.png,frame_041.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_041.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_041.png,1,1,0,"cold:
+item1:(20, 21)
+hot:
+"
+42,26.619179654260346,neutral,frame_042.png,frame_042.wav,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/cleaned/frame_042.png,/home/pi/ThermalSense/Results/ThermalSense/ThermalSense-2025-05-13_16-17-25/thermal/frame_042.png,1,1,0,"cold:
+item1:(19, 19)
+hot:
+"
