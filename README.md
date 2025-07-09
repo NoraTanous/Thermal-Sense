@@ -215,7 +215,7 @@ ThermalSense is responsible for all data, sound, and image transformations
 
 ---
 
-##  Signal Generation (Technical)
+##  Signal Generation 
 
 ###  Frequency-to-Tone Mapping
 
