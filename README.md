@@ -460,6 +460,44 @@ Data Logs: Log temperature readings over time in CSV or JSON format for analysis
 All outputs are saved in a designated output/ folder with timestamped filenames.
 
 
+## Key Features 
+
+- **Real-Time Thermal-to-Audio Conversion**  
+  Continuously captures MLX90640 frames and immediately sonifies them into stereo “thermal soundscapes,” so you can literally _hear_ heat patterns as they occur.
+
+- **Default vs. Custom Mode**  
+  - **Default Mode** auto-computes hot/cold thresholds (μ ± σ) for a zero-config quick start (custom UI disabled).  
+  - **Custom Mode** lets you define up to **7** named temperature ranges, each with its own low/high bounds, display color (CSS name or hex RGB), and base tone frequency.
+
+- **Range Management UI**  
+  - Add or remove up to 7 custom ranges  
+  - Specify **Name**, **Low [°C]**, **High [°C]**, **Color** (text or RGB), **Frequency [Hz]**  
+  - “Validate Data” button enforces that low < high, color names are valid, and frequencies are non-negative before starting
+
+- **Comprehensive Logging & Saving**  
+  - **Enable/Disable**: image saving (PNG), CSV logging, frame capture, audio file output (WAV)  
+  - Each run creates a timestamped folder under `Results/ThermalSense-<YYYY-MM-DD_HH-MM-SS>/`  
+  - CSV output includes frame number, mean temperature, heat category, file paths, and hot/cold counts
+
+- **Real-Time Visualization Controls**  
+  - **Enable/Disable** live Matplotlib display  
+  - Overlays show current hot/cold/total column counts on the thermal image  
+  - Smooth fade-in/out transitions for splash and stop backgrounds
+
+- **Stereo Panning & Musical Mapping**  
+  - Scans left-to-right: horizontal position → time & stereo pan  
+  - Vertical position quantized to a pentatonic scale for harmonious chords  
+  - “Hot” ranges use a brass-like timbre, “Cold” ranges use a reed-like timbre, “Neutral” can be silent
+
+- **Modular, OOP Design**  
+  - **ThermalSenseGUI**: user interface & control panel  
+  - **ThermalSenseRunner**: threaded orchestration of capture → process → output → log  
+  - **ThermalSenseInput**: MLX90640 I²C handling & display update  
+  - **ThermalSense** (in `Dependencies/ThermalSense`): core image cleaning, color mapping & soundscape synthesis
+
+- **Safe Threading & Shutdown**  
+  - Start/Stop buttons launch or terminate the runner thread cleanly  
+  - All resources (I²C bus, open files, Matplotlib figures) are released on exit
 
 
 
