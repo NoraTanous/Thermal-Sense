@@ -102,7 +102,7 @@ ThermalSenseInput is responsible only for sensor I/O
 
 ThermalSense is responsible for all data, sound, and image transformations
 
-## 2.2. Data Flow 
+##  Data Flow 
 
 **A single real-time frame processing cycle involves:**
 
@@ -140,9 +140,9 @@ ThermalSense is responsible for all data, sound, and image transformations
 
 ---
 
-## 3. Algorithm Overview 
+##  Algorithm Overview 
 
-### 3.1. Data Acquisition and Preprocessing
+###  Data Acquisition and Preprocessing
 
 * **Sensor Setup** (ThermalSenseInput.__init__):
 
@@ -161,7 +161,7 @@ ThermalSense is responsible for all data, sound, and image transformations
   * remove_non_thermal: Uses inpainting via OpenCV to eliminate outliers/reflections—masking with threshold and dilating, followed by inpaint to fill invalid regions smoothly.
   * Final cleaning may involve flipping or orientation corrections to match expected left/right/up/down spatial perception.
 
-### 3.2. Thermal-to-Auditory Mapping Algorithm
+###  Thermal-to-Auditory Mapping Algorithm
 
 * **Color Mapping** (generate_colored_thermal_image):
 
@@ -190,7 +190,7 @@ ThermalSense is responsible for all data, sound, and image transformations
   * Scans each column to check if at least one pixel exceeds the hot or cold thresholds (customizable).
   * Counts how many columns contain hot/cold pixels—used for display overlays and logging.
 
-### 3.3. Step-by-Step Operation 
+###  Step-by-Step Operation 
 
 1. **Initialization**:
 
@@ -215,9 +215,9 @@ ThermalSense is responsible for all data, sound, and image transformations
 
 ---
 
-## 4. Signal Generation (Technical)
+##  Signal Generation (Technical)
 
-### 4.1. Frequency-to-Tone Mapping
+###  Frequency-to-Tone Mapping
 
 * **Pitch Calculation** (_pitch_from_y):
 
@@ -229,7 +229,7 @@ ThermalSense is responsible for all data, sound, and image transformations
 
   * Predefined using ratios: [1.0, 1.125, 1.25, 1.5, 1.875] across four octaves above base 220 Hz (A3).
 
-### 4.2. Audio Output Implementation
+### Audio Output Implementation
 
 * **Waveform Synthesis**:
 
