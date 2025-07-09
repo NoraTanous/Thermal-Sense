@@ -429,7 +429,7 @@ sudo raspi-config
 
 
 
-**Running the System**
+## Running the System
 
 
 
@@ -463,7 +463,7 @@ All outputs are saved in a designated output/ folder with timestamped filenames.
 
 
 
-**Use Cases**
+## Use Cases
 
 
 
