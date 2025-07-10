@@ -252,7 +252,7 @@ We pan each column’s chord slightly left or right in stereo—early columns fa
 ---
 
 ##  Signal Generation 
-Once the mapping algorithm has decided what notes to play and when, ThermalSense must actually produce the corresponding sound waves. This section breaks down how we turn those abstract “note events” into real audio you can hear.
+Signal generation is the bridge between “what notes to play” and “actual sound you hear.” Once the mapping algorithm has produced a list of timed notes (pitch + volume), ThermalSense must turn those into real audio waveforms. Here’s how that works under the hood—and what you’ll see documented in the code.
 
 ###  Frequency-to-Tone Mapping
 
@@ -262,31 +262,58 @@ Once the mapping algorithm has decided what notes to play and when, ThermalSense
   * _quantize matches the frequency to the closest value in a precomputed pentatonic scale table (ratios over several octaves from base A3).
   * This guarantees that all simultaneous tones are musically consonant, avoiding dissonance even with multiple active regions.
 
-* **Scale Table**:
+* Quantization to a pentatonic scale
+To keep every chord consonant, we snap each raw frequency to the nearest note in a precomputed table based on the pentatonic scale (ratios [1.0, 1.125, 1.25, 1.5, 1.875] over four octaves starting at A3 = 220 Hz).
 
-  * Predefined using ratios: [1.0, 1.125, 1.25, 1.5, 1.875] across four octaves above base 220 Hz (A3).
+Why pentatonic?
+It eliminates half-step dissonances (no minor seconds or tritones), so even when multiple notes overlap you get a pleasant harmony rather than a clash.
 
 ### Audio Output Implementation
+The Audio Output module is where abstract note events—each with a specific pitch and loudness—are turned into real sound that you can hear. Here’s how the system generates audio in a clear, step-by-step way:
 
-* **Waveform Synthesis**:
+* 1. Digital Sound Basics
+Sampling Rate & Format:
+The system generates digital audio by sending a rapid stream of amplitude values (samples) to a digital-to-analog converter (DAC) or your computer’s sound card.
 
-  * _generate_brass_tone (for hot/warm): Sums sine waves at fundamental and multiples (harmonics) for a rich, “brassy” timbre.
-  * _generate_reed_tone (for cold): Pure sine with vibrato for clarity and distinction.
-  * Waveforms are generated as numpy arrays (per note), summed per column.
+Standard Rate: We use 44.1 kHz (CD quality) for clear, smooth sound.
 
-* **Mixing and Normalization**:
+Sample Depth: Each sample is 16-bit or 24-bit for good dynamic range.
 
-  * Each time slot’s stereo buffer is populated and summed for all relevant notes (could be multiple hot/cold spots in a column).
-  * Total buffer is normalized to avoid clipping; pan is handled by distributing amplitude according to column position.
+* 2. Creating Tones
+Sine Wave Synthesis:
+Each “note” (sound event) is produced as a simple sine wave, calculated by the formula:
+sample_value = volume × sin(2π × frequency × time)
 
-* **Saving and Playback**:
+Sine waves are clear and easy to recognize, but may sound “artificial.”
 
-  * save_audio writes stereo buffer as 32-bit float WAV using soundfile.
-  * play_audio loads the WAV (via simpleaudio), triggers real-time playback, and blocks until playback is finished (ensuring correct sync).
+For richer sound, real instrument samples or more complex waveforms can be used.
 
-* **Real-time Feedback**:
+Envelope (Fade In/Out):
+To avoid harsh clicks at the start or end of a sound, each note fades in and out over a few milliseconds. This smooths the sound and prevents audio artifacts.
 
-  * Playback is started immediately after soundscape generation per frame, so user perceives “live” audio that tracks the sensor in real time.
+* 3. Mixing Multiple Notes
+Combining Sounds:
+Sometimes, more than one note is played at the same moment (for example, two heat spots in the same column).
+
+The system adds the waveforms together, sample by sample.
+
+To avoid audio “clipping” (too loud), volumes are managed so the sum stays within safe limits.
+
+* 4. Stereo and Spatial Sound
+Stereo Panning:
+
+By default, both left and right speakers play the same sound.
+
+ The system can “pan” the audio—making notes for the left side play louder in the left ear and vice versa. This creates a sense of the sound moving left-to-right as the system scans across the image, giving you intuitive spatial cues.
+
+5. Real-Time Playback
+Efficiency:
+
+The audio for each thermal frame is generated quickly and played back with low delay (ideally under a second).
+
+One buffer is played while the next is prepared (double-buffering) to keep everything smooth and responsive.
+
+
 
 
 ---
