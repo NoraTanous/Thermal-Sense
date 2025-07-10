@@ -1,8 +1,8 @@
-ThermalSense Core – Real-Time Thermal-to-Audio Perception System
+ThermalSense  – Real-Time Thermal-to-Audio Perception System
 
 
 
-ThermalSense Core is an open-source Python project designed to translate thermal camera data into sound. By doing this, it enables users to "hear" temperature differences in their surroundings, offering a new way to sense the world—through sound.
+ThermalSense is a project designed to translate thermal camera data into sound. By doing this, it enables users to "hear" temperature differences in their surroundings, offering a new way to sense the world—through sound.
 
 
 
