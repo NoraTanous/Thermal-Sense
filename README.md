@@ -255,6 +255,7 @@ We pan each column’s chord slightly left or right in stereo—early columns fa
 Signal generation is the bridge between “what notes to play” and “actual sound you hear.” Once the mapping algorithm has produced a list of timed notes (pitch + volume), ThermalSense must turn those into real audio waveforms. Here’s how that works under the hood—and what you’ll see documented in the code.
 
 ###  Frequency-to-Tone Mapping
+is the process of turning the vertical position in the thermal image into musical notes (pitches), so users can “hear” where heat or cold is located. The idea is inspired by how the EyeMusic and similar sensory substitution systems work.
 
 * **Pitch Calculation** (_pitch_from_y):
 
@@ -262,16 +263,16 @@ Signal generation is the bridge between “what notes to play” and “actual s
   * _quantize matches the frequency to the closest value in a precomputed pentatonic scale table (ratios over several octaves from base A3).
   * This guarantees that all simultaneous tones are musically consonant, avoiding dissonance even with multiple active regions.
 
-* Quantization to a pentatonic scale
+* snapping to a pentatonic scale
 To keep every chord consonant, we snap each raw frequency to the nearest note in a precomputed table based on the pentatonic scale (ratios [1.0, 1.125, 1.25, 1.5, 1.875] over four octaves starting at A3 = 220 Hz).
-
+This “snapping” to pentatonic ensures all sounds fit well together, even if several are played at the same time.
 Why pentatonic?
 It eliminates half-step dissonances (no minor seconds or tritones), so even when multiple notes overlap you get a pleasant harmony rather than a clash.
 
 ### Audio Output Implementation
 The Audio Output module is where abstract note events—each with a specific pitch and loudness—are turned into real sound that you can hear. Here’s how the system generates audio in a clear, step-by-step way:
 
-* 1. Digital Sound Basics
+ 1. Digital Sound Basics
 Sampling Rate & Format:
 The system generates digital audio by sending a rapid stream of amplitude values (samples) to a digital-to-analog converter (DAC) or your computer’s sound card.
 
@@ -279,7 +280,7 @@ Standard Rate: We use 44.1 kHz (CD quality) for clear, smooth sound.
 
 Sample Depth: Each sample is 16-bit or 24-bit for good dynamic range.
 
-* 2. Creating Tones
+ 2. Creating Tones
 Sine Wave Synthesis:
 Each “note” (sound event) is produced as a simple sine wave, calculated by the formula:
 sample_value = volume × sin(2π × frequency × time)
@@ -291,7 +292,7 @@ For richer sound, real instrument samples or more complex waveforms can be used.
 Envelope (Fade In/Out):
 To avoid harsh clicks at the start or end of a sound, each note fades in and out over a few milliseconds. This smooths the sound and prevents audio artifacts.
 
-* 3. Mixing Multiple Notes
+ 3. Mixing Multiple Notes
 Combining Sounds:
 Sometimes, more than one note is played at the same moment (for example, two heat spots in the same column).
 
@@ -299,7 +300,7 @@ The system adds the waveforms together, sample by sample.
 
 To avoid audio “clipping” (too loud), volumes are managed so the sum stays within safe limits.
 
-* 4. Stereo and Spatial Sound
+ 4. Stereo and Spatial Sound
 Stereo Panning:
 
 By default, both left and right speakers play the same sound.
